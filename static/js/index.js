@@ -79,7 +79,9 @@ function ENDEDIDO_2_2() {
   function onMessageArrived(message) {
 	text=(message.payloadString);
 	console.log(text)
+	text2=(message.payloadString);
 	document.getElementById("respuesta").innerHTML = text;
+	document.getElementById("respuesta2").innerHTML = text2;
  
 	//console.log("mensaje del sensor:"+message.payloadString);
 	
