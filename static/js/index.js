@@ -3,27 +3,27 @@
 function ENDEDIDO_1() {
 	
 	message =new Paho.MQTT.Message("L10");
-	message.destinationName = "654hector1@gmail.com/kop";
+	message.destinationName = "jorgebito777@gmail.com/RASP";
 	client.send(message);
   
 }
 function ENDEDIDO_2(){	
 	
 	message =new Paho.MQTT.Message("L1N");
-	message.destinationName = "654hector1@gmail.com/kop";
+	message.destinationName = "jorgebito777@gmail.com/RASP";
 	client.send(message);
 }
 function ENDEDIDO_1_1() {
 	
 	message =new Paho.MQTT.Message("L2O");
-	message.destinationName = "654hector1@gmail.com/kop";
+	message.destinationName = "jorgebito777@gmail.com/RASP";
 	client.send(message);
   
 }
 function ENDEDIDO_2_2() {
 	
 	message =new Paho.MQTT.Message("L2N");
-	message.destinationName = "654hector1@gmail.com/kop";
+	message.destinationName = "jorgebito777@gmail.com/RASP";
 	client.send(message);
   
 }
@@ -42,8 +42,8 @@ function ENDEDIDO_2_2() {
   client.onMessageArrived = onMessageArrived;
   var options = {
    useSSL: false,
-    userName: "654hector1@gmail.com",
-    password: "naruto798199429",
+    userName: "jorgebito777@gmail.com",
+    password: "proevolution10",
     onSuccess:onConnect,
     onFailure:doFail
   }
