@@ -56,9 +56,9 @@ function ENDEDIDO_2_2() {
     // Once a connection has been made, make a subscription and send a message.
     console.log("Conectado...");
 	
-    client.subscribe("654hector1@gmail.com/test");
+    client.subscribe("jorgebito777@gmail.com/WEB");
     message = new Paho.MQTT.Message("hola desde la web");
-    message.destinationName = "654hector1@gmail.com/kop";
+    message.destinationName = "jorgebito777@gmail.com/RASP";
     client.send(message);
 	
   }
